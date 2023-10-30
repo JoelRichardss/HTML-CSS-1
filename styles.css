@@ -53,7 +53,7 @@ a{
 }
 
 /* CAKE PAGE */
-.cake-test{
+.cake-text{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     color: white;
@@ -68,13 +68,18 @@ a{
 .caption{
     font-size: 15px;
     font-style: italic;
+    text-align: center;
 }
 .container{
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .cake-item{
-    border: 1px dashed yellow;
     width: 275px;
     height: 275px;
     padding: 4px;
+}
+.cake-group{
+    width: 275px;
 }
